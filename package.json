@@ -1,0 +1,19 @@
+{
+  "name": "docker_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "qianl",
+  "license": "ISC",
+  "dependencies":{
+    "express":"4.10.2",
+    "redis":"0.12.1"
+  },
+  "engines":{
+    "node":">=0.10.0"
+  }
+}
