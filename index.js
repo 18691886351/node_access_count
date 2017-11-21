@@ -28,10 +28,10 @@ app.get('/',function(req,res){
 
 app.use('/user/:id', function(req, res, next) {
   console.log('Request URL:', req.originalUrl);
-  next();
+  //next();
 }, function (req, res, next) {
   console.log('Request Type:', req.method);
-  next();
+  //next();
 });
 
 
